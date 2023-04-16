@@ -1,0 +1,106 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 850px;
+    height: 700px;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mainContent{
+    position: relative;
+}
+
+img{
+    margin-top: 20px;
+    width: 25%;;
+}
+
+.playImg img{
+    text-align: center;
+    padding: 1%;
+    width: 20%;
+}
+
+button {
+    width: 180px;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+input{
+    width: 150px;
+    height: 30px;
+    padding: 6px;
+    text-align: center;
+    font-size: 18px;
+    margin: 35px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.active{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+.part1 {
+    float: left;    
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+.part2 {
+    float: right;
+    margin-right: 90px;
+    margin-top: 100px;
+}
+
+.score1{
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.score2{
+    font-size: 60px;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 210px;
+}
+
+.part1 .currentScore1{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+.part2 .currentScore2{
+    margin-right: 0px;
+    margin-top: 0px;
+}
